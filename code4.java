@@ -1,10 +1,9 @@
-package day2;
-
 public class code4 {
-	public static void main(String[] args) {
-		
-		int a =10 , b=20, c=30;
-		System.out.println("  "+a+","+b+","+c);
-	}
-
+    public static void main(String[] args){
+        char ch = 'B';
+        int ascii = (int)ch;
+        System.out.println("char value: " +ch);
+        System.out.println("ASCII value: " +ascii);
+    }
+    
 }

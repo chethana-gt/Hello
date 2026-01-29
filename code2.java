@@ -1,16 +1,10 @@
-package day2;
-
 public class code2 {
-	public static void main(String[] args) {
-		
-		int a= 10;
-		int b=20;
-		int c=a;
-		a=b;
-	    b=c;
-		System.out.println("integer a: " +a);
-		System.out.println("integer b: " +b);
-		
-	}
+    public static void main(String[] args){
+        int a = 10;
+        double b = a;
+        System.out.println("int value: "+a);
+        System.out.println("double value: "+b);
 
+    }
+    
 }

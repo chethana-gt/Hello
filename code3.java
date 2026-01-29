@@ -1,15 +1,9 @@
-package day2;
-
 public class code3 {
-	public static void main(string[] args) {
-		
-		int a= 10;
-		int b=20;
-		a=a+b;
-		b=a-b;
-		a=a-b;
-		System.out.println("integer a: " +a);
-		System.out.println("integer b: " +b);
-	}
-
+    public static void main(String[] args){
+        double x = 10.5;
+        int y = (int)x;
+        System.out.println("double value: "+x);
+        System.out.println("int value: "+y);
+    }
+    
 }
